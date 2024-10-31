@@ -6,7 +6,7 @@ import { revalidatePath } from "next/cache";
 
 export async function handleCreatePost(formData) {
   const db = connect();
-  const { userId } = auth();
+  const { userId } = await auth();
 
   const title = formData.get("title");
   const content = formData.get("content");

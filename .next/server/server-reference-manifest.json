@@ -1,21 +1,5 @@
 {
   "node": {
-    "7fd6400c47ae099bd12d2310b514a1d4f08079a3d1": {
-      "workers": {
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227fd6400c47ae099bd12d2310b514a1d4f08079a3d1%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/posts/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227fd6400c47ae099bd12d2310b514a1d4f08079a3d1%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/posts/page": "action-browser"
-      }
-    },
     "00523924f4d029ce0b772806b94ed4879bd201d729": {
       "workers": {
         "app/posts/page": {
@@ -47,6 +31,22 @@
       },
       "layer": {
         "app/posts/page": "rsc"
+      }
+    },
+    "7fd6400c47ae099bd12d2310b514a1d4f08079a3d1": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227fd6400c47ae099bd12d2310b514a1d4f08079a3d1%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227fd6400c47ae099bd12d2310b514a1d4f08079a3d1%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser",
+        "app/page": "action-browser"
       }
     }
   },

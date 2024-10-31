@@ -6,7 +6,7 @@ import Home from './components/header/Home';
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider dynamic>
       <html lang="en">
         <head>
           <link rel="stylesheet" href="/style.css" />
