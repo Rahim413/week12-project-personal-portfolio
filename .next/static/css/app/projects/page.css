@@ -1,0 +1,86 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/components/header/projects.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.projects-container {
+    padding: 2rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-links {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon-github, .icon-link {
+    font-size: 1.5rem;
+    color: var(--subtitle);
+    transition: color 0.3s;
+}
+
+.icon-github:hover, .icon-link:hover {
+    color: var(--icon-hover);
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.project-card {
+    background-color: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 200px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--title);
+}
+
+.project-card p {
+    color: var(--subtitle);
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+

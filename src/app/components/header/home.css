@@ -1,42 +1,77 @@
+body.dark {
+  --background: #33333380;
+  --border: #444;
+  --text-color: #ffffff;
+  background-color: #121212;
+  color: var(--text-color);
+}
 
-section.hero {
-    margin-top: 3rem;
+body.dark header ul li a {
+  color: var(--text-color);
+}
+
+body.light {
+  --background: #f0f0f08a;
+  --border: #ddd;
+  --text-color: #000000;
+  background-color: #ffffff;
+  color: var(--text-color);
+}
+
+body.light header ul li a {
+  color: var(--text-color);
+}
+
+section.intro-section {
+  margin-top: 3rem;
+}
+
+section.intro-section .parent-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+}
+
+section.intro-section .left-section {
+  flex-grow: 1;
+}
+
+section.intro-section .icon-verified {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+section.intro-section .avatar {
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid rgba(199, 115, 12, 0.863);
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+section.intro-section h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+section.intro-section p.sub-title {
+  width: 75%;
+  max-width: 750px;
+  margin: 0;
+  padding: 0.6rem 0.8rem;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  section.intro-section p.sub-title {
+    width: 80%;
+    font-size: 0.85rem;
+    padding: 0.5rem 0.7rem;
   }
-  
-  section.hero .parent-avatar.flex {
-    align-items: end;
-    gap: 0.6rem;
-  }
-  
-  section.hero .left-section {
-    flex-grow: 1;
-  }
-  
-  section.hero .icon-verified {
-    font-size: 1.1rem;
-    margin-bottom: 0.3rem;
-  }
-  
-  section.hero .avatar {
-    width: 160px;
-    border-radius: 50%;
-    border: 1px solid rgba(199, 115, 12, 0.863);
-    padding: 1px;
-    box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
-  }
-  
-  section.hero h1.title {
-    font-size: 2.85rem;
-    line-height: 3.3rem;
-    margin: 24px 0;
-    color: var(--title);
-  }
-  
-  section.hero p.sub-title {
-    color: var(--subtitle);
-    font-size: 0.9rem;
-    line-height: 1.65rem;
-    margin-bottom: 32px;
-  }
-  
- 
+}

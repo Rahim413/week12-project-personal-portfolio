@@ -6,6 +6,7 @@ import { revalidatePath } from "next/cache";
 import "./posts.css";
 
 async function fetchPosts(db) {
+  "use server";
   const postResults = await db.query(
     `SELECT
       posts_table.id,

@@ -1,55 +1,71 @@
 {
   "node": {
-    "00523924f4d029ce0b772806b94ed4879bd201d729": {
+    "7f23b6923f28a10915a006b293fd78dfeef16bc93e": {
       "workers": {
-        "app/posts/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%2200523924f4d029ce0b772806b94ed4879bd201d729%22%2C%22default%22%5D%2C%5B%22401e90d20462a9e05a4fd491d2f0ecc6531a1d530e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%224028e14edb919730dca5dd026463308ad6da7710e6%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/posts/page": "rsc"
-      }
-    },
-    "401e90d20462a9e05a4fd491d2f0ecc6531a1d530e": {
-      "workers": {
-        "app/posts/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%2200523924f4d029ce0b772806b94ed4879bd201d729%22%2C%22default%22%5D%2C%5B%22401e90d20462a9e05a4fd491d2f0ecc6531a1d530e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%224028e14edb919730dca5dd026463308ad6da7710e6%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/posts/page": "rsc"
-      }
-    },
-    "4028e14edb919730dca5dd026463308ad6da7710e6": {
-      "workers": {
-        "app/posts/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%2200523924f4d029ce0b772806b94ed4879bd201d729%22%2C%22default%22%5D%2C%5B%22401e90d20462a9e05a4fd491d2f0ecc6531a1d530e%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%224028e14edb919730dca5dd026463308ad6da7710e6%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/posts/page": "rsc"
-      }
-    },
-    "7fd6400c47ae099bd12d2310b514a1d4f08079a3d1": {
-      "workers": {
-        "app/posts/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227fd6400c47ae099bd12d2310b514a1d4f08079a3d1%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227f23b6923f28a10915a006b293fd78dfeef16bc93e%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227fd6400c47ae099bd12d2310b514a1d4f08079a3d1%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/posts/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227f23b6923f28a10915a006b293fd78dfeef16bc93e%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/projects/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%5B%227f23b6923f28a10915a006b293fd78dfeef16bc93e%22%2C%22invalidateCacheAction%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
+        "app/page": "action-browser",
         "app/posts/page": "action-browser",
-        "app/page": "action-browser"
+        "app/projects/page": "action-browser"
+      }
+    },
+    "009089f6dc7f0780e77fe9e7104e62186aa76dbdf4": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%22009089f6dc7f0780e77fe9e7104e62186aa76dbdf4%22%2C%22default%22%5D%2C%5B%2240005c2b117b561a6e8cfa1bc03ecf5cc48332a177%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%2240b15ef628c517725200cc4eb2273d57979a3320bb%22%2C%22%24%24RSC_SERVER_ACTION_2%22%5D%2C%5B%2240c141a6b59f88548b723e17a211ce05051554a6d7%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/posts/page": "rsc"
+      }
+    },
+    "40005c2b117b561a6e8cfa1bc03ecf5cc48332a177": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%22009089f6dc7f0780e77fe9e7104e62186aa76dbdf4%22%2C%22default%22%5D%2C%5B%2240005c2b117b561a6e8cfa1bc03ecf5cc48332a177%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%2240b15ef628c517725200cc4eb2273d57979a3320bb%22%2C%22%24%24RSC_SERVER_ACTION_2%22%5D%2C%5B%2240c141a6b59f88548b723e17a211ce05051554a6d7%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/posts/page": "rsc"
+      }
+    },
+    "40b15ef628c517725200cc4eb2273d57979a3320bb": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%22009089f6dc7f0780e77fe9e7104e62186aa76dbdf4%22%2C%22default%22%5D%2C%5B%2240005c2b117b561a6e8cfa1bc03ecf5cc48332a177%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%2240b15ef628c517725200cc4eb2273d57979a3320bb%22%2C%22%24%24RSC_SERVER_ACTION_2%22%5D%2C%5B%2240c141a6b59f88548b723e17a211ce05051554a6d7%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/posts/page": "rsc"
+      }
+    },
+    "40c141a6b59f88548b723e17a211ce05051554a6d7": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fmorahim%2Ftech-educators-bootcamps%2Fweek12%2Ffinal-project%2Fpersonal-portfolio%2Fsrc%2Fapp%2Fposts%2Fpage.jsx%22%2C%5B%5B%22009089f6dc7f0780e77fe9e7104e62186aa76dbdf4%22%2C%22default%22%5D%2C%5B%2240005c2b117b561a6e8cfa1bc03ecf5cc48332a177%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%2C%5B%2240b15ef628c517725200cc4eb2273d57979a3320bb%22%2C%22%24%24RSC_SERVER_ACTION_2%22%5D%2C%5B%2240c141a6b59f88548b723e17a211ce05051554a6d7%22%2C%22%24%24RSC_SERVER_ACTION_1%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/posts/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "dQ0wYO/c4YkdMKI6h5srOKBPf/ZR3DQJTV1h7cUYbvQ="
+  "encryptionKey": "lmQNj99M4wckDydf1tQuKGZiaS2LDjUNtZjfeFmufDw="
 }

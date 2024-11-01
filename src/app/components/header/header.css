@@ -1,18 +1,20 @@
-
 header.flex {
   display: flex;
-  justify-content: space-between;
-  padding: 0 12.4rem;
+  justify-content: center; 
+  padding: 0 2rem;
   margin-top: 1.2rem;
   align-items: center;
 }
 
 header .menu {
   display: none; 
+  font-size: 3rem; 
+  cursor: pointer;
 }
 
 header .nav {
   display: flex;
+  margin-left: auto; 
 }
 
 header ul.flex {
@@ -21,16 +23,10 @@ header ul.flex {
 }
 
 header ul li a {
-  color: var(--title);
   opacity: 0.9;
-  font-size: 1.8rem;
+  font-size: 1rem; 
   font-weight: 500;
   transition: color 0.3s ease, opacity 0.3s ease;
-}
-
-header ul li a:hover {
-  color: var(--blue);
-  opacity: 1;
 }
 
 header button {
@@ -40,54 +36,93 @@ header button {
   cursor: pointer;
 }
 
+body.dark {
+  background-color: #121212; 
+  color: #ffffff; 
+}
+
+body.dark header ul li a {
+  color: #ffffff; 
+}
+
+body.light {
+  background-color: #ffffff; 
+  color: #000000; 
+}
+
+body.light header ul li a {
+  color: #000000; 
+}
+
+@media (min-width: 769px) {
+  header .menu {
+    display: none; 
+  }
+
+  header .theme-toggle {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+  }
+
+  header .theme-toggle .icon-moon-o,
+  header .theme-toggle .icon-sun {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  header .menu {
+    display: flex; 
+  }
+
   header .nav {
     display: none; 
   }
 
-  header .menu {
-    display: flex; 
+  header .theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+  }
+
+  header .theme-toggle .icon-moon-o,
+  header .theme-toggle .icon-sun {
+    font-size: 2rem;
+    margin-left: 10px;
   }
 }
 
-
 header .fixed {
-
-  background-color: rgba(40, 40, 48, 0.91);
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   z-index: 1000;
-}
-
-@keyframes mymove {
-  0% { transform: scale(0); }
-  60% { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-
-header .fixed ul.modal {
-  animation: mymove 0.77s ease-out;
-  width: 60%;  
-  max-width: 400px;  
-  margin: 2rem auto;
-  padding: 1rem;  
-  background-color: var(--secondary);
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  background: rgba(37, 33, 33, 0.9);
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
 }
 
-header .fixed ul.modal li {
-  padding: 0.25rem 0;  
-  text-align: center;
-  font-size: 1.1rem;  
+header .fixed ul.modal-list {
+  padding: 0;
+  list-style: none;
+}
+
+header .fixed ul.modal-list li {
+  margin: 0.5rem 0;
 }
 
 header .icon-close {
-  position: absolute;
-  top: 1rem;
-  right: 150px;
-  font-size: 1.5rem;
+  align-self: flex-end;
+  font-size: 2rem;
+  color: red;
   cursor: pointer;
-  
+  margin-bottom: 1rem;
 }
