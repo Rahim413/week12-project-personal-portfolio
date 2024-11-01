@@ -11,10 +11,10 @@ const Home = () => {
 
         <h1 className="title">Junior Front-End Developer</h1>
         <p className="sub-title">
-          I’m Mohamed Abdelrahim, a passionate Junior Software Developer skilled
+          I am Mohamed Abdelrahim, a passionate Junior Software Developer skilled
           in JavaScript, CSS, React.js, and Next.js. I enjoy creating
           responsive, user-friendly web applications and have hands-on
-          experience with Playwright for end-to-end testing. I'm always eager to
+          experience with Playwright for end-to-end testing. I am always eager to
           learn and improve, bringing dedication and attention to detail.
         </p>
       </div>
